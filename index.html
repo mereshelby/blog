@@ -3,6 +3,11 @@ layout: default
 title: Meredith Shelby
 ---
 
+<ul class="posts">
+  {% for post in site.posts %}
+  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.url }}/blog{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
 <div id="home">
   <h1 align="center">redesigning the remote </h1>
 <div align="center"><img src="images/atelier1.png" width="566" height="389" alt=""/>
@@ -25,9 +30,10 @@ title: Meredith Shelby
   <p align="center">&nbsp;</p>
   <p>This week I needed some tips on the basics. So, I checked out a few books from Decker Library on stuff like prototyping, infographics, font, color, design, etc. These will come in handy for my presentation. The visuals are great. I enjoy thumbing through <em>Unfolding the Napkin, </em>especially for clarity on explaining the<em> how </em>of the user interface design. </p>
   <p>&nbsp;</p>
+  <p>&nbsp;</p>
   <div align="center">
     <p><strong>the good, the bad &amp; the ridiculous</strong></p>
-    <p><strong>11/9 - 11/14</strong>&nbsp;</p>
+    <p><strong>11/9 - 11/15</strong>&nbsp;</p>
   </div>
   <div align="center"> </div>
   <p>&nbsp;</p>
@@ -35,7 +41,7 @@ title: Meredith Shelby
   <p>&nbsp;</p>
   <p>In preparation for my first presentation, I'm researching a few current models. I never realized how ugly and bulky TV remotes are until this project. Add their monotone black or grey and they're quite masculine. The only aesthetic is the hourglass shape (for easier hold) which you'd think would make it a bit feminine -- but it doesn't. All of the current models look alike: chocked full of buttons - 90% of which never get used. As a matter of fact, after doing a little research, I discovered that users' eyes primarily rest on a single area: up &amp; down, right &amp; left buttons. Considering most households have numerous remotes (1 for the TV, 1 for the DVR, 1 for cable, 1 for &nbsp;the Xbox...blah...blah...blah), these all-in-one's are kinda pointless. I won't even mention that TiVo flip-slide thing. </p>
   <p>&nbsp;</p>
-  <p align="center"><strong> 11/14 -11/20</strong></p>
+  <p align="center"><strong> 11/16 -11/29</strong></p>
   <p align="center"><strong>Changing shape</strong></p>
   <p>&nbsp;</p>
   <div align="center"><img src="images/sketches.jpg" width="608" height="312" alt=""/>
@@ -43,18 +49,30 @@ title: Meredith Shelby
   <p>&nbsp;</p>
   <div align="center"><img src="images/whiteboardsketch.jpg" width="608" height="312" alt=""/>
   </div>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>So this week I sketched out a few ideas for what I thought a 'futuristic' remote would look like. Definitely need to work on my sketching skills. I didn't know until afterward that pretty much the first series of models I sketched are already on the market in some way or another. what I didn't know has been on the market already. In essence these models are bulky and awkard to hold, and are still shaped list prototype. </p>
+<p>So this week I sketched out a few ideas for what I thought a 'futuristic' remote might look like. <em>Definitely need to work on my sketching. </em>Though I think a rectangular shape is best (easy grip, fit more buttons, hold for extended time)<em>, </em>I'm drawn to the circular shape in the first set of sketches. </p>
+<p>I then reworked it on a white board. I imagine a touch pad in the center, and thought of contrasting a circular pad onto a square device. If circular, the finger motion would be like a 'swirl.' So I drew that, and ultimately just drew the circle by itself with a swirl. </p>
+<p>I like the swirl, but think it may be oversimplified for users, so I flipped it to put all the buttons on the other side. Users have the option of using the remote either way: swirl or buttons. </p>
+<p align="center">&nbsp;</p>
+<div align="center"><strong>Munchkin Land</strong>
+</div>
+<p>I feel like Dorothy when she walks out of the house for the first time into Munchkin land. After much time in black &amp; white sketches, I finally get to add color! </p>
+<div align="center"><img src="images/Rainbow-Colored-Waffle-Design-2.jpg" width="436" height="300" alt=""/>
+</div>
+<div align="center"> </div>
+<p>&nbsp;</p>
+<p>The square's on the rainbow waffle remind me of my device. But do I want that many buttons? &nbsp;Well, the circular shape and colors are most inpsirational. All I need is some maple syrup. </p>
+<div align="center"><img src="images/yellowbrickroadstarting.jpg" width="440" height="330" alt=""/>
+</div>
+<p>&nbsp;</p>
+<p> Seems like I see a swirl wherever I go. Here's an classic swirl design.....follow brick road! </p>
+<div align="center"><img src="images/mockup2.jpg" width="436" height="246" alt=""/>
+</div>
+<p>Here's my first prototype. It was easy to make: brown paper bag, 2 plastic tupperware container tops, tape and markers. </p>
+<p>11/17/14 Class presentation and blog update </p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <p>11/14 Purchased Sculpey and Premoi clay from MICA Art Supply (natural, red, blue, purple, green) </p>
-  <p>11/17/14 Class presentation and blog update </p>
-  <p>11/24</p>
+<p>11/24</p>
   <p>11/30-12/6 </p>
   <p>12/7-13/14</p>
   <p>Collecting, collecting, collecting images that inspire. So I found the work of this amazing artist/engineer/designer Elena Manferdini. Atelier’s uses her architechture to also design clothes, jewelry and furniture using a laser cuttedr to cut designs in fabric, wood, metal and just about anything. Her shapes and patterns remind me of the kind of movement I want to use to reflect transition throughout and between interfaces. Her colorful installations might be perfect for the cover of my blog. https://www.youtube.com/watch?v=Yyc8Bpndyos Elena Manferdini at UIC SOA </p>
@@ -68,13 +86,7 @@ title: Meredith Shelby
   <p>&nbsp;</p>
   <p>&nbsp;</p>
   <p>&nbsp;</p>
-  <ul class="posts">
-    {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.url }}/blog{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-
-  <h1>Class Lectures, Demos, Syllabus</h1>
+<h1>Class Lectures, Demos, Syllabus</h1>
   <ul class="posts">
     <li><span>21 Oct 2014</span> &raquo; <a href="{{ site.url }}/blog/pdfs/Syllabus_Visualization-and-Prototyping-2014.pdf">Syllabus: Visualization and Prototyping 2014 (PDF)</a></li>
     <li><span>21 Oct 2014</span> &raquo; <a href="{{ site.url }}/blog/pdfs/01_RoleList.pdf">Role List (PDF)</a></li>
